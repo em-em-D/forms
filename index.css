@@ -2,16 +2,29 @@ body{
   background-color:aquamarine;
   padding-top: 150px;
 }
+.up{
+  text-align: center;
+  opacity: 1;
 
-form{
-  position: relative;
-  margin: 0 auto;
-  width: 300px;
-  background-color:beige;
-  text-align : center;
-  border-radius: 5px;
-  border-top: 1px solid #f1f1f1;
-  box-shadow: 0 0 0 1px #626262 , 0 0 0 6px rgba(150,150,150,.5) , 0 0 0 7px #cbbdbc , 0 0 0 8px #78495b;
+  animation: arrive 500ms ease-in-out 0.7s forwards;
+  top: 0;
+}
+
+.user__title{
+  font-size:  25px;
+  color: white;
+  font-family:cursive;
+}
+
+.form{
+  margin-top: 10px;
+    border-radius: 60px;
+    overflow: hidden;
+    opacity: 0.9;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 500ms ease-in-out 0.9s forwards;
+    box-sizing: border-box;
+
 }
 
 input {
@@ -21,4 +34,35 @@ input {
   text-align : center;
   width      : 266px;
   border-radius : 5px;
+}
+
+.loginbox{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 500px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.5)
+}
+.styles{
+  color: white;
+  font-family:cursive;
+}
+.btn{
+  width: 250px;
+  background-color: aquamarine;
+  font-size: 20px;
+  font-family: cursive;
+  color: orange;
+
+}
+.btn:hover {
+background-color: white;
+color:aquamarine;
+}
+.p{
+  font-family: cursive;
+  color: white;
 }
