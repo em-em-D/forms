@@ -33,6 +33,14 @@ input {
   text-align : center;
   width      : 266px;
   border-radius : 5px;
+  background-color: rgb(245, 250, 255);
+}
+
+input::placeholder{
+  color: rgb(66, 38, 38);
+  font-style: normal;
+  font-size: 20px; 
+  font-weight: bold;
 }
 
 .loginbox{
@@ -53,8 +61,9 @@ input {
   width: 250px;
   background-color: aquamarine;
   font-size: 20px;
+  font-weight: bold;
   font-family: cursive;
-  color: orange;
+  color: rgb(185, 32, 32);
 
 }
 .btn:hover {
