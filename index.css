@@ -1,18 +1,17 @@
 body{
-  background-color:aquamarine;
+  background:url(backone.jpg);
   padding-top: 150px;
 }
 .up{
   text-align: center;
   opacity: 1;
-
   animation: arrive 500ms ease-in-out 0.7s forwards;
   top: 0;
 }
 
 .user__title{
   font-size:  25px;
-  color: white;
+  color:white;
   font-family:cursive;
 }
 
@@ -38,7 +37,7 @@ input {
 
 .loginbox{
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 350px;
