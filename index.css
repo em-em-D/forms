@@ -1,7 +1,7 @@
 body{
   background:url(back3.jpg);
   padding-top: 150px;
-  background-position:center;
+  background-position: center;
 }
 .up{
   text-align: center;
@@ -41,7 +41,7 @@ input {
 input::placeholder{
   color: rgb(66, 38, 38);
   font-style: normal;
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -75,4 +75,24 @@ color:aquamarine;
 .p{
   font-family: cursive;
   color: white;
+}
+
+.np{
+  font-family: cursive;
+  color: orange;
+}
+.sign{
+  width: 100px;
+  background-color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  color: rgb(185, 32, 32);
+
+}
+
+#float{
+  top: 0px;
+  float:right;
+  position: fixed;
 }
