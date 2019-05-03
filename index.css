@@ -1,6 +1,5 @@
 body{
   background:url(back3.jpg);
-  padding-top: 150px;
   background-position: center;
 }
 .up{
@@ -17,15 +16,13 @@ body{
 }
 
 .form{
-
-  margin-top: 10px;
-    border-radius: 60px;
-    overflow: hidden;
-    opacity: 0.9;
-    transform: translate3d(0, 500px, 0);
-    animation: arrive 500ms ease-in-out 0.9s forwards;
-    box-sizing: border-box;
-
+margin-top: 10px;
+border-radius: 60px;
+overflow: hidden;
+opacity: 0.9;
+transform: translate3d(0, 500px, 0);
+animation: arrive 500ms ease-in-out 0.9s forwards;
+box-sizing: border-box;
 }
 
 input {
@@ -33,7 +30,7 @@ input {
   height     : 48px;
   margin     : 0 auto 17px;
   text-align : center;
-  width      : 266px;
+  width      : 244px;
   border-radius : 5px;
   background-color: rgb(245, 250, 255);
 }
@@ -47,7 +44,7 @@ input::placeholder{
 
 .loginbox{
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 350px;
@@ -69,18 +66,14 @@ input::placeholder{
 
 }
 .btn:hover {
-background-color: white;
-color:aquamarine;
+  background-color: white;
+  color:aquamarine;
 }
 .p{
   font-family: cursive;
   color: white;
 }
 
-.np{
-  font-family: cursive;
-  color: orange;
-}
 .sign{
   width: 100px;
   background-color: orange;
@@ -88,11 +81,20 @@ color:aquamarine;
   font-weight: bold;
   font-family: cursive;
   color: rgb(185, 32, 32);
-
+  margin-bottom: 60px;
 }
 
-#float{
-  top: 0px;
+.float{
+  width: 260px;
   float:right;
-  position: fixed;
+  margin: -5px 0;
+}
+
+.float button{
+  float: right;
+  margin: -15px 0;
+}
+
+.float h4{
+  margin: 0px;
 }
